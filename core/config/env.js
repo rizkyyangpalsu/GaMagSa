@@ -18,7 +18,8 @@ var env = {
         "blank"             : "#blank", //id blank
         "help"              : "#help", //id  help
         "notif"             : "#notif", //id notif
-        "coloring"          : "#coloring-nav", //id for change color of nav
+        "coloring"          : "#coloring-bg", //id for change color of nav
+        "particle"          : "#particle-bg", //id for change color of nav
         "iconContainer"     : ".icon-container", //class container icon
         "blank"             : ".blank", //class of blank
         "help"              : ".help-cont", //class of help container
@@ -37,5 +38,6 @@ var env = {
 var classAnim = [
     ".anim"
 ];
+audio.music.loop = true;
 var color = [];
 var tmp;
