@@ -4,7 +4,15 @@
     "title" : "COVER",
     "color" : "",
     "image" : "assets/data/cover/frontcover.png",
-    "thumb" : "assets/data/cover/thumb/frontcover.png",
+    "thumb" : "assets/data/cover/frontcover.png",
+    "html"  : "<img src='assets/data/cover/Miber.png' class='hp-cover center'/>"
+  },
+  {
+    "page"  : 2,
+    "title" : "BACKCOVER",
+    "color" : "",
+    "image" : "assets/data/cover/backcover.png",
+    "thumb" : "assets/data/cover/backcover.png",
     "html"  : ""
   }
 ]

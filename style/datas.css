@@ -1,0 +1,6 @@
+/*Cover*/
+.hp-cover {
+    max-width: 270px;
+    padding-top: 160px;
+    animation: atasbawa 2s infinite alternate ;
+}

@@ -4,6 +4,9 @@ $(function () {
     $(document).tooltip();
 
     var music = audio.music;
+    music.loop = true;
+    music.play();
+    var musicCond = true;
     // all component running
     var fn = {
         init: {
@@ -58,7 +61,7 @@ $(function () {
                 });
             },
             particle : function () {
-                particlesJS.load('particle-bg', 'core/config/particles-config.json');
+                particlesJS.load('particle-bg', 'core/config/particlesjs-config.json');
             },
             color : function (page) {
                 var a = color[page-1];
@@ -67,10 +70,12 @@ $(function () {
                 $(env.element.coloring).css({ "background" : a });
             },
             startPage : function () {
-                var page = window.location.hash.substr(5, 5);
                 // noinspection JSAnnotator
-                if (page == NaN || page = "" || page == null) {page = 1}
-                fn.toggle.goPage(page)
+                var page = window.location.hash.substr(5,5);
+                if (page == NaN || page == "" || page == null) {
+                    page = 1
+                }
+                fn.toggle.goPage(page);
             }
         },
         search : function (key){
@@ -131,10 +136,6 @@ $(function () {
             else {
                 $(env.element.magzContainer)
                     .css({"transform" : "scale(" + scale + ")"});
-                if ( size == env.magzScale.default )
-                    fn.toggle.dragMagz(false);
-                else
-                    fn.toggle.dragMagz(true);
 
                 return true;
             }
@@ -146,10 +147,15 @@ $(function () {
         },
         toggle : {
             music : function () {
-                if (audio.music.pause())
-                    audio.music.play();
-                else
-                    audio.music.pause();
+                if (musicCond == true) {
+                    $('.music').attr('src', 'assets/icon/Mute.png');
+                    music.pause();
+                    musicCond = false;
+                } else {
+                    $('.music').attr('src', 'assets/icon/Loud.png');
+                    music.play();
+                    musicCond = true;
+                }
             },
             fullscreen : function () {
                 if ((document.fullScreenElement && document.fullScreenElement !== null)
@@ -202,11 +208,11 @@ $(function () {
             },
             zoomOut : function(){
                 env.magzScale.current -= 10;
-                if (!fn.resizeMagz(env.magzScale.current)) {
+                if (!fn.resizeMagz(env.magzScale.current)){
                     fn.notif('Ukuran minimal majalah');
-                    env.magzScale.current += 10;
-                } else {
-                    fn.notif('Ukuran default majalah');
+                    env.magzScale.current += 10 ;
+                }else{
+                    fn.notif("Zoom " + env.magzScale.current + " %" );
                 }
             },
             zoomReset : function () {
@@ -282,8 +288,6 @@ $(function () {
 
     $(window).bind("load", function () {
         fn.init.startPage();
-        music.loop = true;
-        music.play();
         $(window).bind('hashchange', function () {
             var page = window.location.hash.substr(5,5);
             fn.toggle.goPage(page);
@@ -306,25 +310,21 @@ $(function () {
                 case "help" : fn.toggle.help(); break;
                 case "download" : fn.toggle.download(); break;
                 case "fullscreen" : fn.toggle.fullscreen(); break;
-                case "music" :
-                    fn.toggle.music();
-                    if (audio.music.pause())
-                        $(".music").attr("src", "assets/icon/mute.png");
-                    else
-                        $(".music").attr("src", "assets/icon/loud.png");
+                case "music" : fn.toggle.music(); break;
+                case "daftarIsi" : fn.toggle.goPage(2); break;
             }
         });
         setTimeout(function () {
            $(".splash").fadeOut("slow");
            env.status.loaded = true;
-        }, 700);
+        }, 1000);
     });
 
     setInterval(function () {
         var animList = ['bounce','flash','pulse','rubberBand','shake','headShake','swing','tada','wobble','jello','bounceIn'];
         var rand = {
-            "time" : fn.getRand(1, 10);
-            "anim" : fn.getRand(1, animList.length);
+            "time" : fn.getRand(1, 10),
+            "anim" : fn.getRand(1, animList.length)
         }
         $.each(classAnim, function (a, b) {
             var element = $(b);
@@ -350,7 +350,7 @@ $(function () {
         if (random < 0.5) {
             fn.notif("Gamagsa edisi pertama. Selamat membaca");
         } else {
-            fn.notif("");
+            fn.notif("Kamu bisa menggeser majalah dengan CTRL + DRAG");
         }
     }, 15000);
 
@@ -396,10 +396,6 @@ $(function () {
                 case 77 :
                     key.preventDefault();
                     fn.toggle.music();
-                    if (audio.music.pause())
-                        $(".music").attr("src", "assets/icon/mute.png");
-                    else
-                        $(".music").attr("src", "assets/icon/loud.png");
                     break;
                 case 72 :
                     key.preventDefault();
@@ -421,7 +417,28 @@ $(function () {
                     key.preventDefault();
                     fn.toggle.zoomOut();
                     break;
-            }
+            };
+            $(env.element.magzContainer).bind('mousedown', function () {
+                if (key.ctrlKey)
+                    fn.toggle.dragMagz(true);
+
+                return true;
+            });
+            $(env.element.magzContainer).bind('mouseup', function () {
+                key.preventDefault();
+                fn.toggle.dragMagz(true);
+
+                return true;
+            });
+            // $('.music').bind('click', function() {
+            //     key.preventDefault();
+            //     fn.toggle.music();
+            //     if (music.paused) {
+            //         $(".music").attr("src", "assets/icon/Mute.png");
+            //     } else {
+            //         $(".music").attr("src", "assets/icon/Loud.png");
+            //     }
+            // });
         }
     });
 });

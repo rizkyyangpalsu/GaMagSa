@@ -6,9 +6,51 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gamagsa - Digital Magazine</title>
+    <link rel="icon" href="assets/icon/Logo.png">
+    <link rel="stylesheet" type="text/css" href="style/library/animate.css">
+    <link rel="stylesheet" type="text/css" href="style/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/datas.css">
 </head>
 <body>
 
+    <div class="splash center"></div>
+
+    <div id="background">
+        <div id="particle-bg"></div>
+        <div id="coloring-bg"></div>
+        <div id="pattern-bg"></div>
+    </div>
+
+    <div class="component-icon">
+        <img src="assets/icon/Logo.png" style="position: absolute;z-index: 10;" class="logo center">
+        <ul class="left buttonInline">
+            <li data-action="download" title="Download Majalah" class="button"><img src="assets/icon/Download.png"></li>
+            <li data-action="help" title="Help" class="button"><img src="assets/icon/Help.png"></li>
+            <li data-action="fullscreen" title="Fullscreen" class="button"><img src="assets/icon/FullScreen.png"></li>
+            <li data-action="music" title="Music" class="button"><img class="music" src="assets/icon/Loud.png"></li>
+        </ul>
+        <ul class="right buttonInline">
+            <li data-action="daftarIsi" title="Daftar Isi" class="button"><img src="assets/icon/TableofContent.png"></a></li>
+            <li data-action="zoomIn" title="Zoom in" class="button"><img src="assets/icon/Zoom%20In.png"></li>
+            <li data-action="zoomOut" title="Zoom out" class="button"><img src="assets/icon/Zoom%20Out.png"></li>
+            <li data-action="zoomReset" title="Zoom Reset" class="button"><img src="assets/icon/Zoom%20Reset.png"></li>
+        </ul>
+        <ul class="right buttonInherit">
+            <li class="button" data-action="next" title="Next Page" style="float: right"><img src="assets/icon/Next.png"></li>
+            <li class="button" data-action="back" title="Back Cover"><img src="assets/icon/Back.png" ></li>
+        </ul>
+        <ul class="left buttonInherit">
+            <li class="button" data-action="prev" title="Previous Page"><img src="assets/icon/Pre.png"></li>
+            <li class="button" data-action="front" title="Front Cover"><img src="assets/icon/Front.png" ></li>
+        </ul>
+    </div>
+
+    <div id="magz-container" class="center">
+        <div id="magz" class="center">
+            <!-- parse js -->
+        </div>
+    </div>
 
 <!--config load-->
 <script type="text/javascript" src="core/config/env.js"></script>

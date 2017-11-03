@@ -1,0 +1,55 @@
+@keyframes atasbawa {
+	from {
+		transform: translateY(15%);
+	}
+	to {
+		transform: translateY(30%);
+	}
+}
+
+@keyframes besarecil{
+	5%{
+		transform: scale(1.1);
+	}
+	30%{
+		transform: rotate(5deg);
+	}
+	40%{
+		transform: rotate(-5deg);
+	}
+	50%{
+		transform: rotate(0deg);
+	}
+	80%{
+		transform: scale(1);
+	}
+}
+
+@keyframes shake {
+	from{
+		transform: rotate(-10deg);
+	}
+	to{
+		transform: rotate(10deg);
+	}
+}
+
+@keyframes shakeopa {
+	from{
+		transform: rotate(-10deg);
+		opacity: 0.6;
+	}
+	to{
+		transform: rotate(10deg);
+		opacity: 0.9;
+	}
+}
+
+@keyframes kanankiri{
+	from{
+		transform: translateX(5%);
+	}
+	to{
+		transform: translateX(0);
+	}
+}
