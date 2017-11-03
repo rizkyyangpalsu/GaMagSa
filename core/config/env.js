@@ -38,6 +38,5 @@ var env = {
 var classAnim = [
     ".anim"
 ];
-audio.music.loop = true;
 var color = [];
 var tmp;

@@ -2,6 +2,8 @@ $(function () {
     //default running
     $(env.element.magzContainer).draggable({disabled: true});
     $(document).tooltip();
+
+    var music = audio.music;
     // all component running
     var fn = {
         init: {
@@ -198,6 +200,15 @@ $(function () {
                 } else
                     fn.notif("Zoom " + env.magzScale.current + " $");
             },
+            zoomOut : function(){
+                env.magzScale.current -= 10;
+                if (!fn.resizeMagz(env.magzScale.current)) {
+                    fn.notif('Ukuran minimal majalah');
+                    env.magzScale.current += 10;
+                } else {
+                    fn.notif('Ukuran default majalah');
+                }
+            },
             zoomReset : function () {
                 env.magzScale.current = env.magzScale.default;
                 if (fn.resizeMagz(env.magzScale.current))
@@ -261,5 +272,156 @@ $(function () {
                 return window.open("./gamagsa.pdf", "_blank");
             }
         }
-    }
+    };
+
+    // Running object function
+    fn.init.magz();
+    fn.init.thumbnails();
+    fn.init.color();
+    fn.init.particle();
+
+    $(window).bind("load", function () {
+        fn.init.startPage();
+        music.loop = true;
+        music.play();
+        $(window).bind('hashchange', function () {
+            var page = window.location.hash.substr(5,5);
+            fn.toggle.goPage(page);
+        });
+        $(env.element.searchInput).bind('input', function () {
+            fn.search($(this).val());
+        });
+        $(".button, .blank").bind('click', function () {
+            var option = $(this).data("action");
+            switch (option) {
+                case "zoomIn": fn.toggle.zoomIn(); break;
+                case "zoomOut": fn.toggle.zoomOut(); break;
+                case "zoomReset": fn.toggle.zoomReset(); break;
+                case "next" : fn.toggle.next(); break;
+                case "prev" : fn.toggle.prev(); break;
+                case "front" : fn.toggle.cover(); break;
+                case "back" : fn.toggle.backCover(); break;
+                case "thumb" : fn.toggle.leftPanel("thumbContainer"); break;
+                case "clear" : fn.toggle.clearing(); break;
+                case "help" : fn.toggle.help(); break;
+                case "download" : fn.toggle.download(); break;
+                case "fullscreen" : fn.toggle.fullscreen(); break;
+                case "music" :
+                    fn.toggle.music();
+                    if (audio.music.pause())
+                        $(".music").attr("src", "assets/icon/mute.png");
+                    else
+                        $(".music").attr("src", "assets/icon/loud.png");
+            }
+        });
+        setTimeout(function () {
+           $(".splash").fadeOut("slow");
+           env.status.loaded = true;
+        }, 700);
+    });
+
+    setInterval(function () {
+        var animList = ['bounce','flash','pulse','rubberBand','shake','headShake','swing','tada','wobble','jello','bounceIn'];
+        var rand = {
+            "time" : fn.getRand(1, 10);
+            "anim" : fn.getRand(1, animList.length);
+        }
+        $.each(classAnim, function (a, b) {
+            var element = $(b);
+            var select = {
+                "time" : $(b).data("time"),
+                "anim" : $(b).data("anim")
+            };
+            if (select.anim == null)
+                select.anim = rand.anim;
+            if (select.time == null)
+                select.time = rand.time;
+            if (select.time == rand.time){
+                $(element).addClass('animated ' + animList[select.anim]);
+                $(element).bind('animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd', function () {
+                    $(this).removeClass('animated ' + animList[select.anim]);
+                });
+            }
+        })
+    }, 2000);
+
+    setInterval(function () {
+        var random = Math.random();
+        if (random < 0.5) {
+            fn.notif("Gamagsa edisi pertama. Selamat membaca");
+        } else {
+            fn.notif("");
+        }
+    }, 15000);
+
+    $(document).bind('keydown', function (key) {
+        if (env.status.thumbContainer == false) {
+            switch (key.keyCode) {
+                case 84 :
+                    key.preventDefault();
+                    fn.toggle.leftPanel("thumbContainer");
+                    break;
+                case 27 :
+                    key.preventDefault();
+                    fn.toggle.clearing();
+                    break;
+                case 39 :
+                    key.preventDefault();
+                    fn.toggle.next();
+                    break;
+                case 37 :
+                    key.preventDefault();
+                    fn.toggle.prev();
+                    break;
+                case 38 :
+                    key.preventDefault();
+                    fn.toggle.zoomIn();
+                    break;
+                case 40 :
+                    key.preventDefault();
+                    fn.toggle.zoomOut();
+                    break;
+                case 35 :
+                    key.preventDefault();
+                    fn.toggle.backCover();
+                    break;
+                case 36 :
+                    key.preventDefault();
+                    fn.toggle.cover();
+                    break;
+                case 70 :
+                    key.preventDefault();
+                    fn.toggle.fullscreen();
+                    break;
+                case 77 :
+                    key.preventDefault();
+                    fn.toggle.music();
+                    if (audio.music.pause())
+                        $(".music").attr("src", "assets/icon/mute.png");
+                    else
+                        $(".music").attr("src", "assets/icon/loud.png");
+                    break;
+                case 72 :
+                    key.preventDefault();
+                    fn.toggle.help();
+                    break;
+                case 68 :
+                    key.preventDefault();
+                    fn.toggle.next();
+                    break;
+                case 65 :
+                    key.preventDefault();
+                    fn.toggle.prev();
+                    break;
+                case 87 :
+                    key.preventDefault();
+                    fn.toggle.zoomIn();
+                    break;
+                case 83 :
+                    key.preventDefault();
+                    fn.toggle.zoomOut();
+                    break;
+            }
+        }
+    });
 });
