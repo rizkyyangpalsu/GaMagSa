@@ -1,6 +1,5 @@
 $(function () {
     //default running
-    $(env.element.magzContainer).draggable({disabled: true});
     $(document).tooltip();
 
     var music = audio.music;
@@ -258,21 +257,34 @@ $(function () {
                     env.status[elementClass] = false;
                 }
             },
-            dragMagz : function (key) {
-                if (key == true) {
-                    $(env.element.magzContainer).draggable('enable');
-                    fn.notif("Anda bisa menggerakkan majalah");
-                    $("html, body").css({ "cursor" : "crosshair" });
-                    env.status.dragMode = true;
-                } else {
-                    $(env.element.magzContainer).draggable('disable');
-                    $(env.element.magzContainer).css({
-                        "top" : "",
-                        "left" : ""
+            dragMagz : function (x, y) {
+                var width = $(env.magz.width);
+                var height = $(env.magz.height);
+                var scale = $(env.magzScale.current);
+
+                if (x > -width && x < width && y > -height && y < height) {
+                    magzX = x;
+                    magzY = y;
+
+                    $(magzContainer).css({
+                        "transform" : "scale(" + scale + ") translateX(" + magzX + "px) translateY(" + magzY + "px)",
+                        "transition" : "none"
                     });
-                    $("html, body").removeAttr("style");
-                    env.status.dragMode = false;
                 }
+                // if (key == true) {
+                //     $(env.element.magzContainer).draggable('enable');
+                //     fn.notif("Anda bisa menggerakkan majalah");
+                //     $("html, body").css({ "cursor" : "crosshair" });
+                //     env.status.dragMode = true;
+                // } else {
+                //     $(env.element.magzContainer).draggable('disable');
+                //     $(env.element.magzContainer).css({
+                //         "top" : "",
+                //         "left" : ""
+                //     });
+                //     $("html, body").removeAttr("style");
+                //     env.status.dragMode = false;
+                // }
             },
             download : function () {
                 return window.open("./gamagsa.pdf", "_blank");
@@ -418,17 +430,29 @@ $(function () {
                     fn.toggle.zoomOut();
                     break;
             };
-            $(env.element.magzContainer).bind('mousedown', function () {
-                if (key.ctrlKey)
-                    fn.toggle.dragMagz(true);
 
-                return true;
+            var pointX = 0;
+            var pointY = 0;
+            var magzLast = {
+                x :0,
+                y : 0
+            };
+            $(env.element.magzContainer).bind('mousedown', function (key) {
+                if (key.ctrlKey) {
+                    env.status.dragMode = true;
+                    pointX = key.pageX;
+                    pointY = key.pageY;
+                }
             });
-            $(env.element.magzContainer).bind('mouseup', function () {
-                key.preventDefault();
-                fn.toggle.dragMagz(true);
+            $(env.element.magzContainer).bind('mouseup', function (key) {
+                env.status.dragMode = false;
 
-                return true;
+                magzLast.x = magzX;
+                magzLast.Y = magzY;
+            });
+            $(env.element.magzContainer).bind(mousedown, function (key) {
+                if (env.status.dragMode)
+                    fn.toggle.dragMagz(magzLast.x + (key.pageX - pointX), magzLast.y + (key.pageY - pointY));
             });
             // $('.music').bind('click', function() {
             //     key.preventDefault();

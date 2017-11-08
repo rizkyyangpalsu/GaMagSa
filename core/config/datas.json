@@ -10,7 +10,7 @@
   {
     "page"  : 2,
     "title" : "BACKCOVER",
-    "color" : "",
+    "color" : "#000",
     "image" : "assets/data/cover/backcover.png",
     "thumb" : "assets/data/cover/backcover.png",
     "html"  : ""
