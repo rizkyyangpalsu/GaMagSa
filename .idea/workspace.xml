@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e88303fd-0fd1-4b04-ab66-324b6489d538" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/data/cover/Miber.png" afterPath="$PROJECT_DIR$/assets/data/cover/Miber.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/data/cover/backcover.png" afterPath="$PROJECT_DIR$/assets/data/cover/backcover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/data/cover/frontcover.png" afterPath="$PROJECT_DIR$/assets/data/cover/frontcover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/data/cover/thumb/backcover.png" afterPath="$PROJECT_DIR$/assets/data/cover/thumb/backcover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/data/cover/thumb/frontcover.png" afterPath="$PROJECT_DIR$/assets/data/cover/thumb/frontcover.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config/datas.json" afterPath="$PROJECT_DIR$/core/config/datas.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config/env.js" afterPath="$PROJECT_DIR$/core/config/env.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.js" afterPath="$PROJECT_DIR$/core/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/keyframes.css" afterPath="$PROJECT_DIR$/style/keyframes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,92 +34,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/cymagz/core/core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="243" column="53" lean-forward="true" selection-start-line="239" selection-start-column="20" selection-end-line="243" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="446" column="31" lean-forward="false" selection-start-line="446" selection-start-column="31" selection-end-line="446" selection-end-column="31" />
+            <state relative-caret-position="197">
+              <caret line="55" column="89" lean-forward="false" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://C:/htdocs/Madig/Bravo Magz 2nd/index.html">
+      <file leaf-file-name="magz.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/Bravo/js/magz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="77" column="129" lean-forward="false" selection-start-line="77" selection-start-column="129" selection-end-line="77" selection-end-column="129" />
+            <state relative-caret-position="324">
+              <caret line="472" column="0" lean-forward="true" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
-        <entry file="file://C:/htdocs/cymagz/core/core.js">
+      <file leaf-file-name="env.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/cymagz/core/config/env.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="255" column="65" lean-forward="false" selection-start-line="255" selection-start-column="65" selection-end-line="255" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datas.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/config/datas.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datas.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/datas.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keyframes.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style/keyframes.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datas.css" pinned="false" current-in-tab="false">
-        <entry file="file://C:/htdocs/cymagz/style/datas.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="161" column="23" lean-forward="true" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="80" column="8" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+            <state relative-caret-position="-12">
+              <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -120,8 +76,55 @@
       <file leaf-file-name="env.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/config/env.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desktop.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/cymagz/html/desktop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#ul#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/projects/cymagz/style/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="183" column="20" lean-forward="true" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -143,22 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button</find>
-      <find>zoomI</find>
-      <find>zoomOut</find>
-      <find>notif</find>
-      <find>fullsc</find>
-      <find>musi</find>
-      <find>patter</find>
-      <find>pattern</find>
-      <find>logo</find>
-      <find>center</find>
-      <find>.center</find>
-      <find>.componen</find>
-      <find>.button</find>
-      <find>back</find>
-      <find>flaoting</find>
-      <find>magz</find>
       <find>startPage</find>
       <find>.hard</find>
       <find>.sp</find>
@@ -173,6 +160,22 @@
       <find>drag</find>
       <find>drag`</find>
       <find>hair</find>
+      <find>colori</find>
+      <find>colorin</find>
+      <find>color</find>
+      <find>notif</find>
+      <find>noti</find>
+      <find>anim</find>
+      <find>shadow</find>
+      <find>panel</find>
+      <find>slider</find>
+      <find>searc</find>
+      <find>thum</find>
+      <find>floatin</find>
+      <find>flaot</find>
+      <find>logo</find>
+      <find>hover</find>
+      <find>title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,16 +187,19 @@
         <option value="C:/htdocs/cymagz/core/config/env.js" />
         <option value="$PROJECT_DIR$/core/config/package.json" />
         <option value="C:/htdocs/cymagz/core/config/datas.json" />
-        <option value="$PROJECT_DIR$/core/config/env.js" />
         <option value="C:/htdocs/cymagz/style/style.css" />
-        <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/core/config/audio.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/datas.css" />
-        <option value="$PROJECT_DIR$/core/config/datas.json" />
         <option value="C:/htdocs/cymagz/core/core.js" />
-        <option value="$PROJECT_DIR$/core/core.js" />
         <option value="$PROJECT_DIR$/style/keyframes.css" />
+        <option value="$PROJECT_DIR$/core/config/datas.json" />
+        <option value="$USER_HOME$/projects/cymagz/style/style.css" />
+        <option value="$USER_HOME$/projects/cymagz/core/core.js" />
+        <option value="$USER_HOME$/projects/Bravo/js/magz.js" />
+        <option value="$PROJECT_DIR$/core/config/env.js" />
+        <option value="$PROJECT_DIR$/core/core.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/style.css" />
       </list>
     </option>
   </component>
@@ -227,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +245,27 @@
               <item name="GaMagSa" type="b2602c69:ProjectViewProjectNode" />
               <item name="GaMagSa" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaMagSa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaMagSa" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaMagSa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaMagSa" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="daftarisi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaMagSa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaMagSa" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="daftarisi" type="462c0819:PsiDirectoryNode" />
+              <item name="thumb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GaMagSa" type="b2602c69:ProjectViewProjectNode" />
@@ -260,12 +288,11 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/htdocs/Madig/Bravo Magz 2nd/js/magz.js" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/Bravo/js/magz.js" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="terminal" />
@@ -315,17 +342,17 @@
       <workItem from="1509806687883" duration="604000" />
       <workItem from="1509853133906" duration="376000" />
       <workItem from="1509851369795" duration="4400000" />
+      <workItem from="1510108225204" duration="12742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38773000" />
+    <option name="totallyTimeSpent" value="51515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25055763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2503726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -342,6 +369,24 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2503726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -356,67 +401,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/config/audio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/config/datas.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/htdocs/cymagz/core/config/datas.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/htdocs/cymagz/core/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3059">
-          <caret line="133" column="17" lean-forward="false" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/htdocs/cymagz/html/desktop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/htdocs/cymagz/core/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4071">
-          <caret line="177" column="8" lean-forward="false" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/core/core.js" />
     <entry file="file://$PROJECT_DIR$/core/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1633">
@@ -440,13 +425,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/cymagz/core/config/datas.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/core/config/datas.json" />
     <entry file="file://$PROJECT_DIR$/core/config/env.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
@@ -454,38 +433,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/cymagz/core/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3059">
-          <caret line="133" column="17" lean-forward="false" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/htdocs/cymagz/html/desktop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/core/config/env.js" />
+    <entry file="file://C:/htdocs/cymagz/html/desktop.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/cymagz/core/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1978">
-          <caret line="86" column="38" lean-forward="false" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/core/core.js" />
     <entry file="file://$PROJECT_DIR$/core/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1633">
@@ -509,13 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/cymagz/core/config/datas.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/core/config/datas.json" />
     <entry file="file://$PROJECT_DIR$/core/config/env.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
@@ -523,38 +480,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/cymagz/core/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3059">
-          <caret line="133" column="17" lean-forward="false" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/htdocs/cymagz/html/desktop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/core/config/env.js" />
+    <entry file="file://C:/htdocs/cymagz/html/desktop.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/cymagz/core/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1978">
-          <caret line="86" column="38" lean-forward="true" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/core/core.js" />
     <entry file="file://$PROJECT_DIR$/core/library/turn.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -584,13 +525,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/cymagz/core/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="50" column="45" lean-forward="false" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/core/config/env.js" />
     <entry file="file://$PROJECT_DIR$/core/config/particlesjs-config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -598,28 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/cymagz/core/config/datas.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/core/config/datas.json" />
     <entry file="file://$PROJECT_DIR$/assets/data/cover/Cover Depan.png" />
-    <entry file="file://C:/htdocs/cymagz/html/desktop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="55" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/htdocs/cymagz/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="277" column="20" lean-forward="true" selection-start-line="277" selection-start-column="20" selection-end-line="277" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/htdocs/cymagz/html/desktop.html" />
+    <entry file="file://C:/htdocs/cymagz/style/style.css" />
     <entry file="file://$PROJECT_DIR$/core/config/audio.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -627,92 +544,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/Madig/Bravo Magz 2nd/js/magz.js">
+    <entry file="file://C:/htdocs/Madig/Bravo Magz 2nd/js/magz.js" />
+    <entry file="file://C:/htdocs/cymagz/style/datas.css" />
+    <entry file="file://C:/htdocs/cymagz/core/core.js" />
+    <entry file="file://C:/htdocs/Madig/Bravo Magz 2nd/index.html" />
+    <entry file="file://$PROJECT_DIR$/style/keyframes.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10626">
-          <caret line="462" column="22" lean-forward="false" selection-start-line="462" selection-start-column="18" selection-end-line="462" selection-end-column="22" />
+        <state relative-caret-position="36">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/datas.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="72">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/htdocs/cymagz/style/datas.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="161" column="23" lean-forward="true" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/config/datas.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="72">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/cymagz/core/core.js">
+    <entry file="file://$PROJECT_DIR$/assets/data/daftarisi/thumb/salamredaksi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/data/daftarisi/thumb/daftarisi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/Bravo/js/magz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="255" column="65" lean-forward="false" selection-start-line="255" selection-start-column="65" selection-end-line="255" selection-end-column="65" />
+        <state relative-caret-position="324">
+          <caret line="472" column="0" lean-forward="true" selection-start-line="472" selection-start-column="0" selection-end-line="472" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
+    <entry file="file://$USER_HOME$/projects/cymagz/core/config/env.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="80" column="8" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        <state relative-caret-position="-12">
+          <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/htdocs/Madig/Bravo Magz 2nd/index.html">
+    <entry file="file://$USER_HOME$/projects/cymagz/core/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="77" column="129" lean-forward="false" selection-start-line="77" selection-start-column="129" selection-end-line="77" selection-end-column="129" />
+        <state relative-caret-position="414">
+          <caret line="243" column="53" lean-forward="true" selection-start-line="239" selection-start-column="20" selection-end-line="243" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/config/env.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/cymagz/html/desktop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#ul#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projects/cymagz/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="183" column="20" lean-forward="true" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="446" column="31" lean-forward="false" selection-start-line="446" selection-start-column="31" selection-end-line="446" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/keyframes.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="197">
+          <caret line="55" column="89" lean-forward="false" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="89" />
           <folding />
         </state>
       </provider>

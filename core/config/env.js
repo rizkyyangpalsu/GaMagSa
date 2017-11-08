@@ -2,13 +2,13 @@ var env = {
     "magz" : {
         "width"         : "760px",
         "height"        : "510px",
-        "defaultColor"  : "#FFC107"
+        "defaultColor"  : "#A5D6A7"
     },
     "magzScale" : {
         "current"   : 100,
         "default"   : 100,
-        "min"       : 30,
-        "max"       : 300
+        "min"       : 50,
+        "max"       : 200
     },
     "element" : {
         "magz"              : "#magz", //id magz
@@ -20,7 +20,7 @@ var env = {
         "notif"             : "#notif", //id notif
         "coloring"          : "#coloring-bg", //id for change color of nav
         "particle"          : "#particle-bg", //id for change color of nav
-        "iconContainer"     : ".icon-container", //class container icon
+        "compContainer"     : ".component-icon", //class container icon
         "blank"             : ".blank", //class of blank
         "help"              : ".help-cont", //class of help container
         "searchInput"       : "#search-input" //id search input
@@ -36,6 +36,7 @@ var env = {
 
 //components
 var classAnim = [
+    ".logo",
     ".anim"
 ];
 var color = [];

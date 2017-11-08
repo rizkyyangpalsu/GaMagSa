@@ -64,9 +64,8 @@ $(function () {
             },
             color : function (page) {
                 var a = color[page-1];
-                if (a == "")
-                    a = env.magz.defaultColor;
-                $(env.element.coloring).css({ "background" : a });
+                if (a == "") { a = env.magz.defaultColor }
+                $(env.element.coloring).css({"background": a });
             },
             startPage : function () {
                 // noinspection JSAnnotator
@@ -203,7 +202,7 @@ $(function () {
                     fn.notif("Ukuran maksimal majalah");
                     env.magzScale.current -= 10;
                 } else
-                    fn.notif("Zoom " + env.magzScale.current + " $");
+                    fn.notif("Zoom " + env.magzScale.current + " %");
             },
             zoomOut : function(){
                 env.magzScale.current -= 10;
@@ -220,17 +219,13 @@ $(function () {
                     fn.notif('Ukuran default majalah');
             },
             clearing : function () {
-                $.each(env.status, function (a, b) {
-                    if ( a == "thumbContainer" || a == "helpCont" ) {
-                        if ( a = "helpCont") {
-                            if ( b == true)
+                    if (env.status.helpCont) {
+                            if ( env.status.helpCont == true )
                                 fn.toggle.help();
-                        }
                     } else {
-                        if ( b == true)
-                            fn.toggle.leftPanel(b);
+                        if (env.status.thumbContainer == true)
+                            fn.toggle.leftPanel();
                     }
-                });
             },
             help : function () {
                 $(".image-help").fadeToggle();
@@ -242,19 +237,19 @@ $(function () {
                     $(env.element.blank).fadeOut();
                 }
             },
-            leftPanel : function (elementClass) {
-                if (!env.status[elementClass]) {
-                    $(env.element[elementClass]).css({ "left" : "0%" });
+            leftPanel : function () {
+                if (!env.status.thumbContainer) {
+                    $(env.element.thumbContainer).css({ "left" : "0%" });
                     $(env.element.magz).css({ "left" : "20%" });
                     fn.resizeMagz(50);
                     $(env.element.blank).fadeIn();
-                    env.status[elementClass] = true;
+                    env.status.thumbContainer = true;
                 } else {
-                    $(env.element[elementClass]).css({ "left" : "-80%" });
-                    $(env.element.magz).css({ "left" : "0" });
+                    $(env.element.thumbContainer).css({ "left":"-70%" });
+                    $(env.element.magz).css({"left":"0"});
                     fn.toggle.zoomReset();
                     $(env.element.blank).fadeOut();
-                    env.status[elementClass] = false;
+                    env.status.thumbContainer = false;
                 }
             },
             dragMagz : function (x, y) {
@@ -317,7 +312,7 @@ $(function () {
                 case "prev" : fn.toggle.prev(); break;
                 case "front" : fn.toggle.cover(); break;
                 case "back" : fn.toggle.backCover(); break;
-                case "thumb" : fn.toggle.leftPanel("thumbContainer"); break;
+                case "thumb" : fn.toggle.leftPanel(); break;
                 case "clear" : fn.toggle.clearing(); break;
                 case "help" : fn.toggle.help(); break;
                 case "download" : fn.toggle.download(); break;
@@ -360,9 +355,9 @@ $(function () {
     setInterval(function () {
         var random = Math.random();
         if (random < 0.5) {
-            fn.notif("Gamagsa edisi pertama. Selamat membaca");
+            fn.notif("Selamat Membaca!");
         } else {
-            fn.notif("Kamu bisa menggeser majalah dengan CTRL + DRAG");
+            fn.notif("Kamu bisa menggunakan W, A, S, D, F, dan M");
         }
     }, 15000);
 
@@ -450,7 +445,7 @@ $(function () {
                 magzLast.x = magzX;
                 magzLast.Y = magzY;
             });
-            $(env.element.magzContainer).bind(mousedown, function (key) {
+            $(env.element.magzContainer).bind('mousemove', function (key) {
                 if (env.status.dragMode)
                     fn.toggle.dragMagz(magzLast.x + (key.pageX - pointX), magzLast.y + (key.pageY - pointY));
             });

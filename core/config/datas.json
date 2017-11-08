@@ -2,7 +2,7 @@
   {
     "page"  : 1,
     "title" : "COVER",
-    "color" : "",
+    "color" : "#A5D6A7",
     "image" : "assets/data/cover/frontcover.png",
     "thumb" : "assets/data/cover/frontcover.png",
     "html"  : "<img src='assets/data/cover/Miber.png' class='hp-cover center'/>"
