@@ -1,11 +1,15 @@
 $(function () {
     //default running
-    $(document).tooltip();
+    $(document).ready(function () {
+        $(this).tooltip();
+    })
 
     var music = audio.music;
     music.loop = true;
     music.play();
     var musicCond = true;
+    var magzX = 0;
+    var magzY = 0;
     // all component running
     var fn = {
         init: {
