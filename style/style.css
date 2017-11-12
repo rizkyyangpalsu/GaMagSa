@@ -1,0 +1,243 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("fonts/BebasNeue.otf");
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Bebas Neue";
+}
+
+#notif {
+    position: fixed;
+    width: 300px;
+    background-color: rgba(0, 63, 62, 0.80);
+    z-index: 10;
+    top: 8%;
+    right: -70%;
+    color: #FFFDE7;
+    padding:10px;
+    transition: 0.5s;
+    font-size: 18px;
+    text-align: center;
+}
+
+#background {
+    z-index: -10;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+#coloring-bg{
+    opacity: 0.1;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#pattern-bg{
+    background-image: url("../assets/Geo.png");
+    background-size: 100% 100%;
+    width: 70%;
+    height: 50vh;
+    z-index: 12;
+    top: 0;
+    right: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#particle-bg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+}
+
+#magz-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 3.5%;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.shadow{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#magz{
+    transition: 0.2s;
+    position: fixed;
+}
+
+#magz .page.even:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    right: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(right,  rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(right,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to left,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+#magz .page.odd:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+.panel{
+    position: fixed;
+    top: 0;
+    left: -70%;
+    width: 20%;
+    height: 100vh;
+    transition: 0.5s;
+    z-index: 15;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.thumb-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.thumb{
+    width: 80%;
+    display: block;
+    margin: 20px 30px;
+    transition: 0.3s;
+}
+
+.thumb:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    animation:shakeopa;
+}
+
+.thumb img{
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+}
+
+.component-icon{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    text-align: center;
+    max-width: 70px;
+    padding-top: 20px;
+}
+
+.left{
+    float: left;
+    left: 0%;
+}
+
+.right{
+    float: right;
+    right: 0;
+}
+
+.buttonBottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+
+}
+
+.buttonInline{
+    position: absolute;
+    bottom: -1.5vh;
+}
+
+.buttonInline,.buttonInherit{
+    padding: 0;
+}
+
+.buttonInline > li{
+    display: inline-block;
+    margin:0 10px;
+}
+
+.buttonInline > li > img{
+    width: 50px;
+}
+
+.buttonInherit{
+    margin-top: 15%;
+    position: fixed;
+    z-index: 10;
+}
+
+.buttonInherit > li{
+    display: inherit;
+}
+
+.buttonInherit > li > img{
+    width: 100px;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.center{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blank{
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    z-index: 14;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+.splash{
+    position: fixed;
+    background-image: url("../assets/splash.png");
+    background-size: 100% 100%;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+}
+
+#search-input{
+    width: 85%;
+    margin: 4%;
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+    border: 2px solid #424242;
+}
+.hide{
+    display: none;
+}

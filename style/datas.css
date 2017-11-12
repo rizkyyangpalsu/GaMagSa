@@ -1,0 +1,21 @@
+/*Cover*/
+.hp-cover {
+    max-width: 270px;
+    padding-top: 160px;
+    animation: atasbawa 2s infinite alternate ;
+}
+
+/* Salam Redaksi */
+.salam {
+	max-width: 160px;
+	position: absolute;
+	left: 0;
+	margin: 25px;
+	z-index: 999;
+}
+
+.unesa-logo {
+	max-width: 145px;
+	margin-top: 159px;
+	margin-right: 11px;
+}

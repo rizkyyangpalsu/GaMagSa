@@ -1,0 +1,114 @@
+[
+  {
+    "page"  : 1,
+    "title" : "COVER",
+    "color" : "#A5D6A7",
+    "image" : "assets/data/cover/frontcover.png",
+    "thumb" : "assets/data/cover/frontcover.png",
+    "html"  : "<img src='assets/data/cover/Miber.png' class='hp-cover center'/>"
+  },
+  {
+    "page"  : 2,
+    "title" : "Salam Redaksi",
+    "color" : "#000",
+    "image" : "assets/data/daftarisi/salamredaksi.png",
+    "thumb" : "assets/data/daftarisi/thumb/salamredaksi.png",
+    "html"  : "<img src='assets/data/daftarisi/Salam.png' class='salam anim' />"
+  },
+  {
+    "page"  : 3,
+    "title" : "Daftar Isi",
+    "color" : "#000",
+    "image" : "assets/data/daftarisi/daftarisi.png",
+    "thumb" : "assets/data/daftarisi/thumb/daftarisi.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 4,
+    "title" : "Universitas Negeri Surabaya",
+    "color" : "#000",
+    "image" : "assets/data/unesa/unesa1.png",
+    "thumb" : "assets/data/unesa/thumb/Unesa1.png",
+    "html"  : "<img src='assets/data/unesa/unesa-logo.png' class='unesa-logo anim' /> <div class='unesa-1'></div>"
+  },
+  {
+    "page"  : 5,
+    "title" : "Universitas Negeri Surabaya",
+    "color" : "#000",
+    "image" : "assets/data/unesa/unesa2.png",
+    "thumb" : "assets/data/unesa/thumb/Unesa2.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 6,
+    "title" : "Jurusan Kurikulum & Teknologi Surabaya",
+    "color" : "#000",
+    "image" : "assets/data/hmj/Jktp.png",
+    "thumb" : "assets/data/hmj/thumb/hmj1.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 7,
+    "title" : "Jurusan Kurikulum & Teknologi Surabaya",
+    "color" : "#000",
+    "image" : "assets/data/hmj/hmj2.png",
+    "thumb" : "assets/data/hmj/thumb/jktp2.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 8,
+    "title" : "Iklan Layanan Masyarakat",
+    "color" : "#000",
+    "image" : "assets/data/ilm/ilm1.png",
+    "thumb" : "assets/data/ilm/thumb/ilm1.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 9,
+    "title" : "Iklan Layanan Masyarakat",
+    "color" : "#000",
+    "image" : "assets/data/ilm/ilm2.png",
+    "thumb" : "assets/data/ilm/thumb/ilm2.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 10,
+    "title" : "Pendidikan Berkarakter Dalam Masyarakat Sekitar",
+    "color" : "#000",
+    "image" : "assets/data/galeri/fjxc.png",
+    "thumb" : "assets/data/galeri/thumb/p1.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 11,
+    "title" : "Pendidikan Berkarakter Dalam Masyarakat Sekitar",
+    "color" : "#000",
+    "image" : "assets/data/galeri/galeri1.png",
+    "thumb" : "assets/data/galeri/thumb/p2.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 12,
+    "title" : "Profil SMK Negeri 1 Surabaya",
+    "color" : "#000",
+    "image" : "assets/data/smk/smk1.png",
+    "thumb" : "assets/data/smk/thumb/smk1.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 13,
+    "title" : "Profil SMK Negeri 1 Surabaya",
+    "color" : "#000",
+    "image" : "assets/data/smk/smk2.png",
+    "thumb" : "assets/data/smk/thumb/smk2.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 14,
+    "title" : "BACKCOVER",
+    "color" : "#000",
+    "image" : "assets/data/cover/backcover.png",
+    "thumb" : "assets/data/cover/thumb/backcover.png",
+    "html"  : ""
+  }
+]

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GAMAGSA - Digital Magazine</title>
+    <link rel="icon" href="assets/icon/Logo.png">
+    <link rel="stylesheet" type="text/css" href="style/library/animate.css">
+    <link rel="stylesheet" type="text/css" href="style/library/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="style/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/datas.css">
+</head>
+<body>
+
+<div class="splash center"></div>
+
+<div id="background">
+    <div id="particle-bg"></div>
+    <div id="coloring-bg"></div>
+    <div id="pattern-bg"></div>
+</div>
+
+<div class="component-icon">
+    <div class="left" style="position: absolute; top: 0; left: 0; transform: rotate(90deg);">
+        <div class="button" data-action="thumb" title="Thumbnails" style="transform: translateY(20%); top: 0;"><img src="assets/icon/Thumbnail.png" width="100px"></div>
+    </div>
+    <div class="buttonBottom">
+        <img src="assets/icon/Logo.png" style="position: absolute;z-index: 10;" class="logo center">
+        <ul class="left buttonInline">
+            <li data-action="download" title="Download Majalah" class="button"><img src="assets/icon/Download.png"></li>
+            <li data-action="help" title="Help" class="button"><img src="assets/icon/Help.png"></li>
+            <li data-action="fullscreen" title="Fullscreen" class="button"><img src="assets/icon/FullScreen.png"></li>
+            <li data-action="music" title="Music" class="button"><img class="music" src="assets/icon/Loud.png"></li>
+        </ul>
+        <ul class="right buttonInline">
+            <li data-action="daftarIsi" title="Daftar Isi" class="button"><img src="assets/icon/TableofContent.png"></a>
+            </li>
+            <li data-action="zoomIn" title="Zoom in" class="button"><img src="assets/icon/Zoom%20In.png"></li>
+            <li data-action="zoomOut" title="Zoom out" class="button"><img src="assets/icon/Zoom%20Out.png"></li>
+            <li data-action="zoomReset" title="Zoom Reset" class="button"><img src="assets/icon/Zoom%20Reset.png"></li>
+        </ul>
+    </div>
+    <ul class="right flaoting buttonInherit">
+        <li class="button" data-action="next" title="Next Page" style="float: right"><img src="assets/icon/Next.png">
+        </li>
+        <li class="button" data-action="back" title="Back Cover"><img src="assets/icon/Back.png"></li>
+    </ul>
+    <ul class="left flaoting buttonInherit">
+        <li class="button" data-action="prev" title="Previous Page"><img src="assets/icon/Pre.png"></li>
+        <li class="button" data-action="front" title="Front Cover"><img src="assets/icon/Front.png"></li>
+    </ul>
+</div>
+
+<div id="magz-container" class="center">
+    <div id="magz" class="center">
+        <!-- parse js -->
+    </div>
+</div>
+
+
+<div class="thumb-container panel">
+    <input type="text" name="search" id="search-input" placeholder="Cari konten...">
+    <div id="thumbContents">
+
+    </div>
+    <!-- parse js -->
+</div>
+<div class="blank center" data-action="clear"></div>
+<div class="image-help center" ></div>
+
+<div id="notif"></div>
+
+<!--config load-->
+<script type="text/javascript" src="core/config/env.js"></script>
+<script type="text/javascript" src="core/config/audio.js"></script>
+<!--libraries load-->
+<script type="text/javascript" src="core/library/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="core/library/jquery-ui.min.js"></script>
+<script type="text/javascript" src="core/library/turn.min.js"></script>
+<script type="text/javascript" src="core/library/particles.min.js"></script>
+<!--core load-->
+<script type="text/javascript" src="core/core.js"></script>
+<script>
+
+</script>
+</body>
+</html>
