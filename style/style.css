@@ -240,3 +240,13 @@ html,body{
     max-width: 70px;
     padding-top: 20px;
 }
+.image-help{
+    position: fixed;
+    top: 5%;
+    width: 90%;
+    height: 90vh;
+    background-image: url("../assets/help.png");
+    background-size: 100% 100%;
+    display: none;
+    z-index: 15;
+}
