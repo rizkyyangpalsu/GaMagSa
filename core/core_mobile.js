@@ -13,10 +13,10 @@ $(function(){
             }
             arr[a]=[a*100];
             var li = $("<li></li>").css({
-                "backgroundImage" : "url(\'"+b.image+"\')",
+                "backgroundImage" : "url(\'"+b.thumb+"\')",
                 "backgroundSize"  : "100% 100%",
                 'left'            : ''+a*100+'%'
-            }).html(b.html).addClass('image').attr('data-action',b.page).appendTo(gamagz);
+            }).addClass('image').attr('data-action',b.page).appendTo(gamagz);
         });
         magzLength = data.length;
     });

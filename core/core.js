@@ -2,7 +2,7 @@ $(function () {
     //default running
     $(document).ready(function () {
         $(this).tooltip();
-    })
+    });
 
     var music = audio.music;
     music.loop = true;
@@ -107,10 +107,10 @@ $(function () {
                 $(env.element.thumb).empty();
                 $.each(result, function (a, b) {
                     var thumb;
-                    thumb = "<img src='" + b[0].thumb + "' " + a + ">";
-                    thumb += "<img src='" + b[1].thumb + "' " + a + ">";
-                    $("<a href='#page'" + b[0].page + "'></a>").addClass(thumb)
-                        .attr("title", b[0].title)
+                    thumb = "<img src='"+b[0].thumb+"' "+a+">";
+                    thumb += "<img src='"+b[1].thumb+"' "+a+">";
+                    $("<a href='#page"+b[0].page+"'></a>").addClass('thumb')
+                        .attr("title",b[0].title)
                         .html(thumb).appendTo(env.element.thumb);
                     thumb = null;
                 });

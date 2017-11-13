@@ -1,24 +1,26 @@
 @font-face {
-    font-family: Arial;
+    font-family: "Century Gothic";
+    src: url("fonts/century-gothic.ttf");
 }
 
 html,body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: Arial;
+    font-family: "Century Gothic";
 }
 
 #notif {
     position: fixed;
     width: 300px;
-    background-color: rgba(170, 0, 255, 0.75);
+    background-color: rgba(0, 63, 62, 0.80);
     z-index: 10;
     top: 8%;
     right: -70%;
     color: #FFFDE7;
     padding:10px;
     transition: 0.5s;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -141,13 +143,6 @@ html,body{
     width: 100%;
     height: 100vh;
 }
-
-.logo{
-    text-align: center;
-    max-width: 70px;
-    padding-top: 20px;
-}
-
 .left{
     float: left;
     left: 0%;
@@ -238,4 +233,10 @@ html,body{
 }
 .hide{
     display: none;
+}
+.logo{
+    animation: shake 2s infinite alternate;
+    text-align: center;
+    max-width: 70px;
+    padding-top: 20px;
 }
