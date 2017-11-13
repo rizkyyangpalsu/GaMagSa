@@ -13,7 +13,7 @@
     "color" : "#000",
     "image" : "assets/data/daftarisi/salamredaksi.png",
     "thumb" : "assets/data/daftarisi/thumb/salamredaksi.png",
-    "html"  : "<img src='assets/data/daftarisi/Salam.png' class='salam anim' />"
+    "html"  : "<img src='assets/data/daftarisi/Salam.png' class='salam anim' /><p class='hide'>Setelah ganti nama dari MeMagz menjadi Gamagsa dan sedikit pergantian team, akhirnya Gamagsa edisi pertama telah terbit, kali ini dengan tema 'Potret Pendidikan Berkarakter di Indonesia Dalam Menghadapi Era Digital' Penasaran kan? yuks langsung cek aja</p>"
   },
   {
     "page"  : 3,
@@ -53,7 +53,7 @@
     "color" : "#000",
     "image" : "assets/data/hmj/thumb/Jktp2.png",
     "thumb" : "assets/data/hmj/thumb/Jktp2.png",
-    "html"  : ""
+    "html"  : "<p class='hide'></p>"
   },
   {
     "page"  : 8,
@@ -105,6 +105,22 @@
   },
   {
     "page"  : 14,
+    "title" : "Profil Tim GAMAGSA",
+    "color" : "#000",
+    "image" : "assets/data/profil/ptlay1.png",
+    "thumb" : "assets/data/profil/thumb/pt1.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 15,
+    "title" : "Profil Tim GAMAGSA",
+    "color" : "#000",
+    "image" : "assets/data/profil/ptlay2.png",
+    "thumb" : "assets/data/profil/thumb/pt2.png",
+    "html"  : ""
+  },
+  {
+    "page"  : 16,
     "title" : "BACKCOVER",
     "color" : "#000",
     "image" : "assets/data/cover/backcover.png",
