@@ -1,15 +1,1 @@
-html{
-    padding: 0;
-    margin:0;
-}
-
-body{
-    overflow: hidden;
-}
-
-.image{
-    display: inline;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-}
+html{padding:0;margin:0}body{overflow:hidden}.image{display:inline;width:100%;height:100%;position:fixed}
